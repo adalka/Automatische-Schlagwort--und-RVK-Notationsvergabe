@@ -8,8 +8,7 @@ In diesem Projekt soll versucht werden, die Schlagwort- und Notationsvergabe der
 
 ### Möglicher Projektablauf
 Aus diesem Tool werden die in den großen deutschsprachigen Bibliotheksverbünden generierten Schlagwörter und RVK-Notationen mit den ISBN bzw. PPN des Bibliotheksbestands der LWL-Archäologie vorhandenen Titel abgeglichen und im Anschluss in eine Excel-Liste gespeist:
-* Zunächst werden alle in der Bibliothek umzusystematisierenden Werke über einen SQL-Befehl in einer csv-Datei erfasst.
-* Diese wird nach Spalten (Signaturen, Mediennummern, Kurztitel, Autor, Reihentitel, ISBN, neue Notation, neue Schlagwörter, neue Gesamtsignatur) und nach Signaturen aufsteigend sortiert.
+* Zunächst werden alle in der Bibliothek umzusystematisierenden Werke über einen SQL-Befehl in einer csv-Datei erfasst. Diese wurde nach Spalten (Signaturen, Mediennummern, Kurztitel, Autor, Reihentitel, ISBN, neue Notation, neue Schlagwörter, neue Gesamtsignatur) und nach Signaturen aufsteigend sortiert.
 * Schließlich kommt ein Skript zum Einsatz, das die ISBN bzw. PPN aus der entsprechenden Zeile in das Malibu-Tool setzt.
 * Danach werden die in den Verbünden vergebenen RVK-Notationen in die Spalte "neue Notation" gesetzt, die Schlagwörter in die Spalte "neue Schlagwörter". 
 * Mit einer For Loop soll dann in Python/Jupyter die Anfrage für alle 30.000 Monographien der Bibliothek durchgeführt werden.
