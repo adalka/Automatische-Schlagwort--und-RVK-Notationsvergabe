@@ -1,4 +1,10 @@
 $ spyder
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jun 22 14:58 2019
+@author: A. Karsten
+"""
+
 import urllib.request
 import pandas as pd
 
