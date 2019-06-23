@@ -29,13 +29,18 @@ with open('2019-05-27_P1000_sortiert_mit_ISBN_Exnr_als_Text.csv', newline='') as
     for row in reader:
         print(row)
 # Tool zur Übernahme der RVK-Notationen liegt als json-file vor
+
 # Nächster Schritt: Testen, ob ISBN aus csv das gewünschte Ergebnis liefert (https://2.python-requests.org//de/latest/user/quickstart.html)
 import requests
 r = requests.get('http://data.bib.uni-mannheim.de/malibu/isbn/gbv.php?isbn=3-85460-115-8&format=json')
 r.json()
 
 ## Nächster Schritt: RVK auslesen und mit ISBN verknüpfen
+import requests
+r = requests.get('http://data.bib.uni-mannheim.de/malibu/isbn/gbv.php?isbn=3-85460-115-8&format=json')
+r.text
 
+# Key und Value lautet "rvk": [\n        "NF 1665"\n    ]
     
 
 
