@@ -1,6 +1,6 @@
 # Automatisierte Schlagwort- und RVK-Notationsvergabe 
 
-### Projekt: Umsystematisierung der Bibliotheksbestände der LWL-Archäologie für Westfalen
+### Projekt: Umsystematisierung der Bibliotheksbestände einer arch. Spezialbibliothek
 Seit Längerem besteht der Wunsch, die Bestände der archäologischen Spezialbibliothek systematisch aufzustellen. 
 Man entschied sich für die [Regensburger Verbundklassifikation](https://rvk.uni-regensburg.de/regensburger-verbundklassifikation-online) (RVK) als Ordnungssystem. Da die Bibliothek nicht Mitglied in einem Verbund ist und über die vorhandene Bibliothekssoftware keine automatische Übernahme von Fremddaten, d.h. Schlagwörter und RVK-Notationen, möglich ist, muss dies auf einem alternativen Weg vonstattengehen. 
 
